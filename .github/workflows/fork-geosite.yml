@@ -1,0 +1,87 @@
+name: Fork GeoSite CI and Prerelease
+
+on:
+  push:
+    branches: [ci/geosite-startup]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fork-geosite-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-build:
+    if: github.repository == 'Huffer342-WSH/mihomo'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux-amd64
+          - os: windows-latest
+            platform: windows-amd64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 35
+    defaults:
+      run:
+        shell: bash
+    env:
+      CGO_ENABLED: '0'
+      GOTOOLCHAIN: local
+      SKIP_INTEROP_TEST: '1'
+      SKIP_CONCURRENT_TEST: '1'
+      MSYS_NO_PATHCONV: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c
+        with:
+          go-download-base-url: https://github.com/MetaCubeX/go/releases/download/build
+          go-version: '1.26'
+      - run: go version
+      - name: Test
+        run: go test ./... -count=1 -timeout=15m
+      - name: Test with gVisor
+        run: go test ./... -tags with_gvisor -count=1 -timeout=15m
+      - name: Build and package
+        env:
+          PLATFORM: ${{ matrix.platform }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          binary=mihomo
+          if [[ "$RUNNER_OS" == Windows ]]; then binary=mihomo.exe; fi
+          go build -tags with_gvisor -trimpath -ldflags "-X github.com/metacubex/mihomo/constant.Version=geosite-test-${GITHUB_SHA:0:8}" -o "$binary" .
+          if [[ "$RUNNER_OS" == Windows ]]; then
+            7z a "dist/mihomo-$PLATFORM.zip" "$binary"
+          else
+            tar -czf "dist/mihomo-$PLATFORM.tar.gz" "$binary"
+          fi
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.platform }}
+          path: dist/*
+          if-no-files-found: error
+  prerelease:
+    if: github.repository == 'Huffer342-WSH/mihomo'
+    needs: test-build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Publish isolated prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          cd dist
+          sha256sum mihomo-* > checksums.txt
+          tag="geosite-test-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          printf 'GeoSite optimization test build.\n\nFunctional commit: 02584861637ebafff55a889b1bcb3224522663d9\nWorkflow commit: %s\nRun: https://github.com/%s/actions/runs/%s\n\nLinux and Windows amd64; Go 1.26; tests with and without with_gvisor.\n' "$GITHUB_SHA" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" > ../release-notes.txt
+          gh release create "$tag" --repo "$GH_REPO" --target "$GITHUB_SHA" --prerelease --latest=false --title "GeoSite optimization test $GITHUB_RUN_ID" --notes-file ../release-notes.txt mihomo-* checksums.txt
