@@ -1,0 +1,2306 @@
+[
+  {
+    "version": "standard",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 995.9987,
+    "peak_resident_bytes": 343269376,
+    "peak_commit_bytes": 384368640,
+    "cpu_ms": 1625.0
+  },
+  {
+    "version": "memconservative",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 781.3835,
+    "peak_resident_bytes": 68739072,
+    "peak_commit_bytes": 109993984,
+    "cpu_ms": 796.875
+  },
+  {
+    "version": "buffer_4k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 311.274,
+    "peak_resident_bytes": 66433024,
+    "peak_commit_bytes": 107958272,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 298.0807,
+    "peak_resident_bytes": 66301952,
+    "peak_commit_bytes": 107114496,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 296.5705,
+    "peak_resident_bytes": 66588672,
+    "peak_commit_bytes": 107724800,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_64k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 286.9576,
+    "peak_resident_bytes": 66326528,
+    "peak_commit_bytes": 107544576,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_128k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 299.3034,
+    "peak_resident_bytes": 66318336,
+    "peak_commit_bytes": 107245568,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 0,
+    "returncode": 0,
+    "load_ms": 299.5527,
+    "peak_resident_bytes": 66265088,
+    "peak_commit_bytes": 107491328,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "memconservative",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 813.2447,
+    "peak_resident_bytes": 65929216,
+    "peak_commit_bytes": 107225088,
+    "cpu_ms": 859.375
+  },
+  {
+    "version": "buffer_4k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 294.4777,
+    "peak_resident_bytes": 66150400,
+    "peak_commit_bytes": 107941888,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_16k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 298.7319,
+    "peak_resident_bytes": 65990656,
+    "peak_commit_bytes": 106975232,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 290.6944,
+    "peak_resident_bytes": 66600960,
+    "peak_commit_bytes": 107372544,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_64k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 285.753,
+    "peak_resident_bytes": 66150400,
+    "peak_commit_bytes": 107114496,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_128k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 297.9814,
+    "peak_resident_bytes": 66543616,
+    "peak_commit_bytes": 108531712,
+    "cpu_ms": 187.5
+  },
+  {
+    "version": "buffer_256k",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 301.6643,
+    "peak_resident_bytes": 66760704,
+    "peak_commit_bytes": 107442176,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "standard",
+    "round": 1,
+    "returncode": 0,
+    "load_ms": 993.5285,
+    "peak_resident_bytes": 278204416,
+    "peak_commit_bytes": 319070208,
+    "cpu_ms": 1156.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 326.2845,
+    "peak_resident_bytes": 66301952,
+    "peak_commit_bytes": 109846528,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_16k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 303.7625,
+    "peak_resident_bytes": 65818624,
+    "peak_commit_bytes": 106168320,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_32k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 281.8708,
+    "peak_resident_bytes": 66166784,
+    "peak_commit_bytes": 107417600,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_64k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 299.567,
+    "peak_resident_bytes": 65912832,
+    "peak_commit_bytes": 106954752,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_128k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 293.6025,
+    "peak_resident_bytes": 66797568,
+    "peak_commit_bytes": 108314624,
+    "cpu_ms": 265.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 312.7479,
+    "peak_resident_bytes": 66879488,
+    "peak_commit_bytes": 108105728,
+    "cpu_ms": 546.875
+  },
+  {
+    "version": "standard",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 1046.6691,
+    "peak_resident_bytes": 290627584,
+    "peak_commit_bytes": 330825728,
+    "cpu_ms": 1031.25
+  },
+  {
+    "version": "memconservative",
+    "round": 2,
+    "returncode": 0,
+    "load_ms": 805.1681,
+    "peak_resident_bytes": 66072576,
+    "peak_commit_bytes": 106831872,
+    "cpu_ms": 640.625
+  },
+  {
+    "version": "buffer_16k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 302.6364,
+    "peak_resident_bytes": 66351104,
+    "peak_commit_bytes": 107552768,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 307.1259,
+    "peak_resident_bytes": 66678784,
+    "peak_commit_bytes": 109027328,
+    "cpu_ms": 187.5
+  },
+  {
+    "version": "buffer_64k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 305.367,
+    "peak_resident_bytes": 65609728,
+    "peak_commit_bytes": 106602496,
+    "cpu_ms": 250.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 299.568,
+    "peak_resident_bytes": 66228224,
+    "peak_commit_bytes": 107737088,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_256k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 313.4213,
+    "peak_resident_bytes": 67727360,
+    "peak_commit_bytes": 110436352,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "standard",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 1034.4544,
+    "peak_resident_bytes": 317419520,
+    "peak_commit_bytes": 357601280,
+    "cpu_ms": 937.5
+  },
+  {
+    "version": "memconservative",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 861.6999,
+    "peak_resident_bytes": 65519616,
+    "peak_commit_bytes": 106991616,
+    "cpu_ms": 1093.75
+  },
+  {
+    "version": "buffer_4k",
+    "round": 3,
+    "returncode": 0,
+    "load_ms": 328.1813,
+    "peak_resident_bytes": 66220032,
+    "peak_commit_bytes": 107372544,
+    "cpu_ms": 234.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 326.2838,
+    "peak_resident_bytes": 66326528,
+    "peak_commit_bytes": 107352064,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_64k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 328.1091,
+    "peak_resident_bytes": 65454080,
+    "peak_commit_bytes": 106627072,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_128k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 332.6685,
+    "peak_resident_bytes": 66506752,
+    "peak_commit_bytes": 107151360,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 319.6519,
+    "peak_resident_bytes": 66449408,
+    "peak_commit_bytes": 108212224,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "standard",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 1090.1708,
+    "peak_resident_bytes": 343621632,
+    "peak_commit_bytes": 384610304,
+    "cpu_ms": 1453.125
+  },
+  {
+    "version": "memconservative",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 854.0387,
+    "peak_resident_bytes": 66301952,
+    "peak_commit_bytes": 108093440,
+    "cpu_ms": 781.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 326.4852,
+    "peak_resident_bytes": 65765376,
+    "peak_commit_bytes": 106487808,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 4,
+    "returncode": 0,
+    "load_ms": 325.505,
+    "peak_resident_bytes": 66646016,
+    "peak_commit_bytes": 107511808,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_64k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 331.7656,
+    "peak_resident_bytes": 67915776,
+    "peak_commit_bytes": 111161344,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_128k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 317.6431,
+    "peak_resident_bytes": 66105344,
+    "peak_commit_bytes": 107331584,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_256k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 328.8897,
+    "peak_resident_bytes": 66093056,
+    "peak_commit_bytes": 107307008,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "standard",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 1054.8558,
+    "peak_resident_bytes": 291266560,
+    "peak_commit_bytes": 332791808,
+    "cpu_ms": 1796.875
+  },
+  {
+    "version": "memconservative",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 835.917,
+    "peak_resident_bytes": 66220032,
+    "peak_commit_bytes": 107319296,
+    "cpu_ms": 875.0
+  },
+  {
+    "version": "buffer_4k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 334.7953,
+    "peak_resident_bytes": 66297856,
+    "peak_commit_bytes": 107618304,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_16k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 326.6003,
+    "peak_resident_bytes": 66990080,
+    "peak_commit_bytes": 108331008,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 5,
+    "returncode": 0,
+    "load_ms": 328.0822,
+    "peak_resident_bytes": 66461696,
+    "peak_commit_bytes": 107237376,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_128k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 320.9244,
+    "peak_resident_bytes": 65941504,
+    "peak_commit_bytes": 107253760,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_256k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 320.2254,
+    "peak_resident_bytes": 65744896,
+    "peak_commit_bytes": 109277184,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "standard",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 1040.8148,
+    "peak_resident_bytes": 278523904,
+    "peak_commit_bytes": 318390272,
+    "cpu_ms": 1562.5
+  },
+  {
+    "version": "memconservative",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 829.6226,
+    "peak_resident_bytes": 65957888,
+    "peak_commit_bytes": 107479040,
+    "cpu_ms": 781.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 342.7988,
+    "peak_resident_bytes": 65654784,
+    "peak_commit_bytes": 106897408,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_16k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 327.0481,
+    "peak_resident_bytes": 66605056,
+    "peak_commit_bytes": 106594304,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_32k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 316.6169,
+    "peak_resident_bytes": 66678784,
+    "peak_commit_bytes": 108150784,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_64k",
+    "round": 6,
+    "returncode": 0,
+    "load_ms": 317.4609,
+    "peak_resident_bytes": 66068480,
+    "peak_commit_bytes": 106450944,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 330.7418,
+    "peak_resident_bytes": 66519040,
+    "peak_commit_bytes": 107540480,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "standard",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 1052.4144,
+    "peak_resident_bytes": 278589440,
+    "peak_commit_bytes": 318595072,
+    "cpu_ms": 1640.625
+  },
+  {
+    "version": "memconservative",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 817.2211,
+    "peak_resident_bytes": 66723840,
+    "peak_commit_bytes": 108355584,
+    "cpu_ms": 1031.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 319.4817,
+    "peak_resident_bytes": 65761280,
+    "peak_commit_bytes": 109666304,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_16k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 311.3017,
+    "peak_resident_bytes": 66396160,
+    "peak_commit_bytes": 107405312,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_32k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 334.4831,
+    "peak_resident_bytes": 66101248,
+    "peak_commit_bytes": 107352064,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_64k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 324.141,
+    "peak_resident_bytes": 66715648,
+    "peak_commit_bytes": 107302912,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_128k",
+    "round": 7,
+    "returncode": 0,
+    "load_ms": 319.895,
+    "peak_resident_bytes": 66879488,
+    "peak_commit_bytes": 107540480,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "standard",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 1099.9903,
+    "peak_resident_bytes": 344412160,
+    "peak_commit_bytes": 384299008,
+    "cpu_ms": 1531.25
+  },
+  {
+    "version": "memconservative",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 826.4338,
+    "peak_resident_bytes": 66457600,
+    "peak_commit_bytes": 107470848,
+    "cpu_ms": 828.125
+  },
+  {
+    "version": "buffer_4k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 332.3247,
+    "peak_resident_bytes": 66404352,
+    "peak_commit_bytes": 107896832,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_16k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 341.7045,
+    "peak_resident_bytes": 66383872,
+    "peak_commit_bytes": 107835392,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_32k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 330.9914,
+    "peak_resident_bytes": 66482176,
+    "peak_commit_bytes": 107597824,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "buffer_64k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 332.8136,
+    "peak_resident_bytes": 66662400,
+    "peak_commit_bytes": 108056576,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 336.9317,
+    "peak_resident_bytes": 65789952,
+    "peak_commit_bytes": 106995712,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_256k",
+    "round": 8,
+    "returncode": 0,
+    "load_ms": 333.4298,
+    "peak_resident_bytes": 66486272,
+    "peak_commit_bytes": 107044864,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "memconservative",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 831.5832,
+    "peak_resident_bytes": 65839104,
+    "peak_commit_bytes": 106344448,
+    "cpu_ms": 890.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 336.0132,
+    "peak_resident_bytes": 65839104,
+    "peak_commit_bytes": 106557440,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 334.4016,
+    "peak_resident_bytes": 66150400,
+    "peak_commit_bytes": 107421696,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_32k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 326.9193,
+    "peak_resident_bytes": 66097152,
+    "peak_commit_bytes": 106446848,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_64k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 337.1611,
+    "peak_resident_bytes": 66736128,
+    "peak_commit_bytes": 108204032,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_128k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 328.2842,
+    "peak_resident_bytes": 66469888,
+    "peak_commit_bytes": 107188224,
+    "cpu_ms": 609.375
+  },
+  {
+    "version": "buffer_256k",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 347.9974,
+    "peak_resident_bytes": 66404352,
+    "peak_commit_bytes": 107675648,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "standard",
+    "round": 9,
+    "returncode": 0,
+    "load_ms": 1054.1898,
+    "peak_resident_bytes": 294916096,
+    "peak_commit_bytes": 335212544,
+    "cpu_ms": 1375.0
+  },
+  {
+    "version": "buffer_4k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 355.1556,
+    "peak_resident_bytes": 67121152,
+    "peak_commit_bytes": 108441600,
+    "cpu_ms": 562.5
+  },
+  {
+    "version": "buffer_16k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 312.6861,
+    "peak_resident_bytes": 66805760,
+    "peak_commit_bytes": 108523520,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_32k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 330.06,
+    "peak_resident_bytes": 66125824,
+    "peak_commit_bytes": 108101632,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 316.7034,
+    "peak_resident_bytes": 66473984,
+    "peak_commit_bytes": 107495424,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_128k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 309.4316,
+    "peak_resident_bytes": 65409024,
+    "peak_commit_bytes": 106909696,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_256k",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 315.924,
+    "peak_resident_bytes": 66441216,
+    "peak_commit_bytes": 106991616,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "standard",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 1032.7819,
+    "peak_resident_bytes": 291434496,
+    "peak_commit_bytes": 332193792,
+    "cpu_ms": 1265.625
+  },
+  {
+    "version": "memconservative",
+    "round": 10,
+    "returncode": 0,
+    "load_ms": 820.3802,
+    "peak_resident_bytes": 66768896,
+    "peak_commit_bytes": 107589632,
+    "cpu_ms": 953.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 318.0852,
+    "peak_resident_bytes": 66306048,
+    "peak_commit_bytes": 107106304,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_32k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 310.3829,
+    "peak_resident_bytes": 66392064,
+    "peak_commit_bytes": 107585536,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_64k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 316.0209,
+    "peak_resident_bytes": 65662976,
+    "peak_commit_bytes": 106708992,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "buffer_128k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 308.9987,
+    "peak_resident_bytes": 65683456,
+    "peak_commit_bytes": 106528768,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_256k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 342.653,
+    "peak_resident_bytes": 66379776,
+    "peak_commit_bytes": 107339776,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "standard",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 1033.6835,
+    "peak_resident_bytes": 289660928,
+    "peak_commit_bytes": 330764288,
+    "cpu_ms": 2125.0
+  },
+  {
+    "version": "memconservative",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 825.4071,
+    "peak_resident_bytes": 65912832,
+    "peak_commit_bytes": 106737664,
+    "cpu_ms": 1046.875
+  },
+  {
+    "version": "buffer_4k",
+    "round": 11,
+    "returncode": 0,
+    "load_ms": 321.931,
+    "peak_resident_bytes": 66134016,
+    "peak_commit_bytes": 106995712,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_32k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 314.7018,
+    "peak_resident_bytes": 66695168,
+    "peak_commit_bytes": 107790336,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_64k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 326.2224,
+    "peak_resident_bytes": 66248704,
+    "peak_commit_bytes": 107110400,
+    "cpu_ms": 531.25
+  },
+  {
+    "version": "buffer_128k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 309.6169,
+    "peak_resident_bytes": 66899968,
+    "peak_commit_bytes": 108347392,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 317.1516,
+    "peak_resident_bytes": 66265088,
+    "peak_commit_bytes": 106725376,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "standard",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 1029.6276,
+    "peak_resident_bytes": 277704704,
+    "peak_commit_bytes": 317300736,
+    "cpu_ms": 1390.625
+  },
+  {
+    "version": "memconservative",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 803.1784,
+    "peak_resident_bytes": 66183168,
+    "peak_commit_bytes": 106934272,
+    "cpu_ms": 843.75
+  },
+  {
+    "version": "buffer_4k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 330.6877,
+    "peak_resident_bytes": 65511424,
+    "peak_commit_bytes": 109096960,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_16k",
+    "round": 12,
+    "returncode": 0,
+    "load_ms": 322.8155,
+    "peak_resident_bytes": 65929216,
+    "peak_commit_bytes": 107974656,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_64k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 321.0204,
+    "peak_resident_bytes": 66535424,
+    "peak_commit_bytes": 110612480,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_128k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 333.1257,
+    "peak_resident_bytes": 66576384,
+    "peak_commit_bytes": 109862912,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 321.214,
+    "peak_resident_bytes": 66752512,
+    "peak_commit_bytes": 108179456,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "standard",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 1056.1289,
+    "peak_resident_bytes": 289280000,
+    "peak_commit_bytes": 330358784,
+    "cpu_ms": 1515.625
+  },
+  {
+    "version": "memconservative",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 818.389,
+    "peak_resident_bytes": 66490368,
+    "peak_commit_bytes": 107839488,
+    "cpu_ms": 1140.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 318.0952,
+    "peak_resident_bytes": 66068480,
+    "peak_commit_bytes": 107327488,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 325.2886,
+    "peak_resident_bytes": 66134016,
+    "peak_commit_bytes": 107241472,
+    "cpu_ms": 546.875
+  },
+  {
+    "version": "buffer_32k",
+    "round": 13,
+    "returncode": 0,
+    "load_ms": 335.6828,
+    "peak_resident_bytes": 66043904,
+    "peak_commit_bytes": 107241472,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_128k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 328.2467,
+    "peak_resident_bytes": 66244608,
+    "peak_commit_bytes": 106995712,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 305.0469,
+    "peak_resident_bytes": 66297856,
+    "peak_commit_bytes": 107126784,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "standard",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 1032.8137,
+    "peak_resident_bytes": 277000192,
+    "peak_commit_bytes": 317456384,
+    "cpu_ms": 1562.5
+  },
+  {
+    "version": "memconservative",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 796.8678,
+    "peak_resident_bytes": 66564096,
+    "peak_commit_bytes": 107515904,
+    "cpu_ms": 781.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 310.6266,
+    "peak_resident_bytes": 65941504,
+    "peak_commit_bytes": 109957120,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 318.517,
+    "peak_resident_bytes": 65802240,
+    "peak_commit_bytes": 106328064,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 314.5595,
+    "peak_resident_bytes": 65957888,
+    "peak_commit_bytes": 106594304,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "buffer_64k",
+    "round": 14,
+    "returncode": 0,
+    "load_ms": 323.6697,
+    "peak_resident_bytes": 66334720,
+    "peak_commit_bytes": 109494272,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 330.8718,
+    "peak_resident_bytes": 66146304,
+    "peak_commit_bytes": 106647552,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "standard",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 1064.0743,
+    "peak_resident_bytes": 316055552,
+    "peak_commit_bytes": 355930112,
+    "cpu_ms": 1156.25
+  },
+  {
+    "version": "memconservative",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 811.3706,
+    "peak_resident_bytes": 65794048,
+    "peak_commit_bytes": 106848256,
+    "cpu_ms": 890.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 319.2806,
+    "peak_resident_bytes": 65929216,
+    "peak_commit_bytes": 106635264,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 307.5368,
+    "peak_resident_bytes": 66543616,
+    "peak_commit_bytes": 107831296,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 317.7789,
+    "peak_resident_bytes": 65880064,
+    "peak_commit_bytes": 107126784,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_64k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 314.7796,
+    "peak_resident_bytes": 66326528,
+    "peak_commit_bytes": 106713088,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_128k",
+    "round": 15,
+    "returncode": 0,
+    "load_ms": 310.0826,
+    "peak_resident_bytes": 66179072,
+    "peak_commit_bytes": 107642880,
+    "cpu_ms": 562.5
+  },
+  {
+    "version": "standard",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 1030.6427,
+    "peak_resident_bytes": 291344384,
+    "peak_commit_bytes": 332140544,
+    "cpu_ms": 1656.25
+  },
+  {
+    "version": "memconservative",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 811.1128,
+    "peak_resident_bytes": 66310144,
+    "peak_commit_bytes": 107008000,
+    "cpu_ms": 828.125
+  },
+  {
+    "version": "buffer_4k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 318.3218,
+    "peak_resident_bytes": 65806336,
+    "peak_commit_bytes": 106340352,
+    "cpu_ms": 265.625
+  },
+  {
+    "version": "buffer_16k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 318.3695,
+    "peak_resident_bytes": 66314240,
+    "peak_commit_bytes": 107470848,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_32k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 315.1795,
+    "peak_resident_bytes": 66699264,
+    "peak_commit_bytes": 107692032,
+    "cpu_ms": 562.5
+  },
+  {
+    "version": "buffer_64k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 320.9158,
+    "peak_resident_bytes": 66781184,
+    "peak_commit_bytes": 107417600,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_128k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 318.586,
+    "peak_resident_bytes": 66265088,
+    "peak_commit_bytes": 107671552,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_256k",
+    "round": 16,
+    "returncode": 0,
+    "load_ms": 323.8823,
+    "peak_resident_bytes": 66355200,
+    "peak_commit_bytes": 107458560,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "memconservative",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 805.7793,
+    "peak_resident_bytes": 66048000,
+    "peak_commit_bytes": 106733568,
+    "cpu_ms": 890.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 340.4372,
+    "peak_resident_bytes": 65867776,
+    "peak_commit_bytes": 109957120,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "buffer_16k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 315.5321,
+    "peak_resident_bytes": 66490368,
+    "peak_commit_bytes": 107773952,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "buffer_32k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 335.7057,
+    "peak_resident_bytes": 66007040,
+    "peak_commit_bytes": 107053056,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 327.4177,
+    "peak_resident_bytes": 67129344,
+    "peak_commit_bytes": 108167168,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 324.1375,
+    "peak_resident_bytes": 67944448,
+    "peak_commit_bytes": 108707840,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 313.6468,
+    "peak_resident_bytes": 66834432,
+    "peak_commit_bytes": 107212800,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "standard",
+    "round": 17,
+    "returncode": 0,
+    "load_ms": 1037.9216,
+    "peak_resident_bytes": 278859776,
+    "peak_commit_bytes": 319406080,
+    "cpu_ms": 1500.0
+  },
+  {
+    "version": "buffer_4k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 307.0099,
+    "peak_resident_bytes": 66523136,
+    "peak_commit_bytes": 107515904,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_16k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 337.1749,
+    "peak_resident_bytes": 66469888,
+    "peak_commit_bytes": 107986944,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 322.1111,
+    "peak_resident_bytes": 66351104,
+    "peak_commit_bytes": 107024384,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_64k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 322.2487,
+    "peak_resident_bytes": 66912256,
+    "peak_commit_bytes": 108019712,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 328.0098,
+    "peak_resident_bytes": 66371584,
+    "peak_commit_bytes": 107036672,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "buffer_256k",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 333.2599,
+    "peak_resident_bytes": 66727936,
+    "peak_commit_bytes": 107302912,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "standard",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 1028.2685,
+    "peak_resident_bytes": 342597632,
+    "peak_commit_bytes": 383750144,
+    "cpu_ms": 1687.5
+  },
+  {
+    "version": "memconservative",
+    "round": 18,
+    "returncode": 0,
+    "load_ms": 822.425,
+    "peak_resident_bytes": 66523136,
+    "peak_commit_bytes": 108249088,
+    "cpu_ms": 828.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 311.5395,
+    "peak_resident_bytes": 65851392,
+    "peak_commit_bytes": 106246144,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 312.7137,
+    "peak_resident_bytes": 65974272,
+    "peak_commit_bytes": 107397120,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_64k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 315.0243,
+    "peak_resident_bytes": 65994752,
+    "peak_commit_bytes": 108171264,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 313.4142,
+    "peak_resident_bytes": 63479808,
+    "peak_commit_bytes": 106835968,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_256k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 344.3486,
+    "peak_resident_bytes": 66383872,
+    "peak_commit_bytes": 108580864,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "standard",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 1049.7493,
+    "peak_resident_bytes": 292765696,
+    "peak_commit_bytes": 333021184,
+    "cpu_ms": 1718.75
+  },
+  {
+    "version": "memconservative",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 815.0687,
+    "peak_resident_bytes": 66392064,
+    "peak_commit_bytes": 107917312,
+    "cpu_ms": 890.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 19,
+    "returncode": 0,
+    "load_ms": 341.0536,
+    "peak_resident_bytes": 65732608,
+    "peak_commit_bytes": 106500096,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_32k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 333.554,
+    "peak_resident_bytes": 66314240,
+    "peak_commit_bytes": 107282432,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "buffer_64k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 310.2992,
+    "peak_resident_bytes": 66174976,
+    "peak_commit_bytes": 110682112,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_128k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 329.6544,
+    "peak_resident_bytes": 66138112,
+    "peak_commit_bytes": 106774528,
+    "cpu_ms": 250.0
+  },
+  {
+    "version": "buffer_256k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 325.3644,
+    "peak_resident_bytes": 66486272,
+    "peak_commit_bytes": 107274240,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "standard",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 995.0655,
+    "peak_resident_bytes": 292986880,
+    "peak_commit_bytes": 333434880,
+    "cpu_ms": 1281.25
+  },
+  {
+    "version": "memconservative",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 837.7609,
+    "peak_resident_bytes": 66629632,
+    "peak_commit_bytes": 107819008,
+    "cpu_ms": 765.625
+  },
+  {
+    "version": "buffer_4k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 328.6059,
+    "peak_resident_bytes": 66191360,
+    "peak_commit_bytes": 106590208,
+    "cpu_ms": 500.0
+  },
+  {
+    "version": "buffer_16k",
+    "round": 20,
+    "returncode": 0,
+    "load_ms": 323.5164,
+    "peak_resident_bytes": 66916352,
+    "peak_commit_bytes": 108371968,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 312.0835,
+    "peak_resident_bytes": 65761280,
+    "peak_commit_bytes": 106766336,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_128k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 315.0741,
+    "peak_resident_bytes": 66580480,
+    "peak_commit_bytes": 107241472,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_256k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 313.1039,
+    "peak_resident_bytes": 66113536,
+    "peak_commit_bytes": 109453312,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "standard",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 1019.3522,
+    "peak_resident_bytes": 291999744,
+    "peak_commit_bytes": 332320768,
+    "cpu_ms": 1921.875
+  },
+  {
+    "version": "memconservative",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 837.7077,
+    "peak_resident_bytes": 66396160,
+    "peak_commit_bytes": 107470848,
+    "cpu_ms": 937.5
+  },
+  {
+    "version": "buffer_4k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 310.7207,
+    "peak_resident_bytes": 66646016,
+    "peak_commit_bytes": 108199936,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_16k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 318.2486,
+    "peak_resident_bytes": 65859584,
+    "peak_commit_bytes": 107343872,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_32k",
+    "round": 21,
+    "returncode": 0,
+    "load_ms": 321.5369,
+    "peak_resident_bytes": 65380352,
+    "peak_commit_bytes": 107048960,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_128k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 322.3124,
+    "peak_resident_bytes": 66199552,
+    "peak_commit_bytes": 107716608,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_256k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 327.8266,
+    "peak_resident_bytes": 66498560,
+    "peak_commit_bytes": 107282432,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "standard",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 1075.6811,
+    "peak_resident_bytes": 341778432,
+    "peak_commit_bytes": 382345216,
+    "cpu_ms": 1500.0
+  },
+  {
+    "version": "memconservative",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 822.9935,
+    "peak_resident_bytes": 66039808,
+    "peak_commit_bytes": 106721280,
+    "cpu_ms": 1109.375
+  },
+  {
+    "version": "buffer_4k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 329.9006,
+    "peak_resident_bytes": 66654208,
+    "peak_commit_bytes": 107139072,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_16k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 328.4677,
+    "peak_resident_bytes": 67821568,
+    "peak_commit_bytes": 111173632,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 321.4921,
+    "peak_resident_bytes": 65937408,
+    "peak_commit_bytes": 107274240,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_64k",
+    "round": 22,
+    "returncode": 0,
+    "load_ms": 311.7911,
+    "peak_resident_bytes": 63062016,
+    "peak_commit_bytes": 105730048,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_256k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 339.8047,
+    "peak_resident_bytes": 66166784,
+    "peak_commit_bytes": 106921984,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "standard",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 1032.8571,
+    "peak_resident_bytes": 291512320,
+    "peak_commit_bytes": 332668928,
+    "cpu_ms": 1062.5
+  },
+  {
+    "version": "memconservative",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 848.6496,
+    "peak_resident_bytes": 66125824,
+    "peak_commit_bytes": 107540480,
+    "cpu_ms": 828.125
+  },
+  {
+    "version": "buffer_4k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 342.2771,
+    "peak_resident_bytes": 66736128,
+    "peak_commit_bytes": 107352064,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_16k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 313.622,
+    "peak_resident_bytes": 66240512,
+    "peak_commit_bytes": 106934272,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "buffer_32k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 303.4293,
+    "peak_resident_bytes": 66191360,
+    "peak_commit_bytes": 107433984,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_64k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 323.2339,
+    "peak_resident_bytes": 65826816,
+    "peak_commit_bytes": 107552768,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "buffer_128k",
+    "round": 23,
+    "returncode": 0,
+    "load_ms": 328.1049,
+    "peak_resident_bytes": 66658304,
+    "peak_commit_bytes": 107511808,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "standard",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 1051.6906,
+    "peak_resident_bytes": 291729408,
+    "peak_commit_bytes": 331292672,
+    "cpu_ms": 1500.0
+  },
+  {
+    "version": "memconservative",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 863.3827,
+    "peak_resident_bytes": 66248704,
+    "peak_commit_bytes": 107425792,
+    "cpu_ms": 875.0
+  },
+  {
+    "version": "buffer_4k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 332.3241,
+    "peak_resident_bytes": 66355200,
+    "peak_commit_bytes": 110333952,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_16k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 432.212,
+    "peak_resident_bytes": 66437120,
+    "peak_commit_bytes": 107401216,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_32k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 349.8001,
+    "peak_resident_bytes": 67072000,
+    "peak_commit_bytes": 106577920,
+    "cpu_ms": 562.5
+  },
+  {
+    "version": "buffer_64k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 317.3317,
+    "peak_resident_bytes": 67555328,
+    "peak_commit_bytes": 110166016,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_128k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 316.8876,
+    "peak_resident_bytes": 66736128,
+    "peak_commit_bytes": 110768128,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 24,
+    "returncode": 0,
+    "load_ms": 343.8472,
+    "peak_resident_bytes": 66306048,
+    "peak_commit_bytes": 107683840,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "memconservative",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 853.0075,
+    "peak_resident_bytes": 68173824,
+    "peak_commit_bytes": 111423488,
+    "cpu_ms": 843.75
+  },
+  {
+    "version": "buffer_4k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 338.7935,
+    "peak_resident_bytes": 66097152,
+    "peak_commit_bytes": 106569728,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_16k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 316.5602,
+    "peak_resident_bytes": 66359296,
+    "peak_commit_bytes": 106889216,
+    "cpu_ms": 484.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 315.1026,
+    "peak_resident_bytes": 65527808,
+    "peak_commit_bytes": 106983424,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_64k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 326.1695,
+    "peak_resident_bytes": 66109440,
+    "peak_commit_bytes": 106561536,
+    "cpu_ms": 484.375
+  },
+  {
+    "version": "buffer_128k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 349.11,
+    "peak_resident_bytes": 65994752,
+    "peak_commit_bytes": 107634688,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "buffer_256k",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 333.5072,
+    "peak_resident_bytes": 66985984,
+    "peak_commit_bytes": 107864064,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "standard",
+    "round": 25,
+    "returncode": 0,
+    "load_ms": 1062.0446,
+    "peak_resident_bytes": 289452032,
+    "peak_commit_bytes": 330690560,
+    "cpu_ms": 1750.0
+  },
+  {
+    "version": "buffer_4k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 341.0745,
+    "peak_resident_bytes": 66129920,
+    "peak_commit_bytes": 107835392,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "buffer_16k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 336.9347,
+    "peak_resident_bytes": 66822144,
+    "peak_commit_bytes": 107892736,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_32k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 317.4033,
+    "peak_resident_bytes": 66310144,
+    "peak_commit_bytes": 107134976,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 310.6568,
+    "peak_resident_bytes": 66752512,
+    "peak_commit_bytes": 107753472,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "buffer_128k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 314.6119,
+    "peak_resident_bytes": 66285568,
+    "peak_commit_bytes": 108318720,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_256k",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 318.4954,
+    "peak_resident_bytes": 67239936,
+    "peak_commit_bytes": 108687360,
+    "cpu_ms": 312.5
+  },
+  {
+    "version": "standard",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 1058.8394,
+    "peak_resident_bytes": 288051200,
+    "peak_commit_bytes": 328364032,
+    "cpu_ms": 1468.75
+  },
+  {
+    "version": "memconservative",
+    "round": 26,
+    "returncode": 0,
+    "load_ms": 852.5045,
+    "peak_resident_bytes": 66183168,
+    "peak_commit_bytes": 107560960,
+    "cpu_ms": 875.0
+  },
+  {
+    "version": "buffer_16k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 305.0303,
+    "peak_resident_bytes": 65908736,
+    "peak_commit_bytes": 107556864,
+    "cpu_ms": 515.625
+  },
+  {
+    "version": "buffer_32k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 307.5642,
+    "peak_resident_bytes": 65888256,
+    "peak_commit_bytes": 107282432,
+    "cpu_ms": 234.375
+  },
+  {
+    "version": "buffer_64k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 318.7768,
+    "peak_resident_bytes": 66035712,
+    "peak_commit_bytes": 106188800,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_128k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 326.4503,
+    "peak_resident_bytes": 66215936,
+    "peak_commit_bytes": 106827776,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_256k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 314.3223,
+    "peak_resident_bytes": 66711552,
+    "peak_commit_bytes": 106516480,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "standard",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 1039.8771,
+    "peak_resident_bytes": 290676736,
+    "peak_commit_bytes": 330670080,
+    "cpu_ms": 1578.125
+  },
+  {
+    "version": "memconservative",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 811.5497,
+    "peak_resident_bytes": 66605056,
+    "peak_commit_bytes": 107794432,
+    "cpu_ms": 812.5
+  },
+  {
+    "version": "buffer_4k",
+    "round": 27,
+    "returncode": 0,
+    "load_ms": 331.1742,
+    "peak_resident_bytes": 65822720,
+    "peak_commit_bytes": 106430464,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_32k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 324.0791,
+    "peak_resident_bytes": 66166784,
+    "peak_commit_bytes": 107786240,
+    "cpu_ms": 296.875
+  },
+  {
+    "version": "buffer_64k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 321.3234,
+    "peak_resident_bytes": 65896448,
+    "peak_commit_bytes": 107048960,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "buffer_128k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 314.1906,
+    "peak_resident_bytes": 66646016,
+    "peak_commit_bytes": 107352064,
+    "cpu_ms": 578.125
+  },
+  {
+    "version": "buffer_256k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 317.4268,
+    "peak_resident_bytes": 66420736,
+    "peak_commit_bytes": 108175360,
+    "cpu_ms": 484.375
+  },
+  {
+    "version": "standard",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 1021.2979,
+    "peak_resident_bytes": 289644544,
+    "peak_commit_bytes": 329834496,
+    "cpu_ms": 1671.875
+  },
+  {
+    "version": "memconservative",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 852.7846,
+    "peak_resident_bytes": 66142208,
+    "peak_commit_bytes": 107241472,
+    "cpu_ms": 812.5
+  },
+  {
+    "version": "buffer_4k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 335.7571,
+    "peak_resident_bytes": 66461696,
+    "peak_commit_bytes": 107470848,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_16k",
+    "round": 28,
+    "returncode": 0,
+    "load_ms": 317.3299,
+    "peak_resident_bytes": 66486272,
+    "peak_commit_bytes": 109490176,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 310.7497,
+    "peak_resident_bytes": 65994752,
+    "peak_commit_bytes": 107077632,
+    "cpu_ms": 359.375
+  },
+  {
+    "version": "buffer_128k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 336.5671,
+    "peak_resident_bytes": 66146304,
+    "peak_commit_bytes": 107536384,
+    "cpu_ms": 328.125
+  },
+  {
+    "version": "buffer_256k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 325.8449,
+    "peak_resident_bytes": 67117056,
+    "peak_commit_bytes": 108072960,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "standard",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 1040.7135,
+    "peak_resident_bytes": 338612224,
+    "peak_commit_bytes": 379490304,
+    "cpu_ms": 1359.375
+  },
+  {
+    "version": "memconservative",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 833.493,
+    "peak_resident_bytes": 66064384,
+    "peak_commit_bytes": 109953024,
+    "cpu_ms": 812.5
+  },
+  {
+    "version": "buffer_4k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 330.1053,
+    "peak_resident_bytes": 66420736,
+    "peak_commit_bytes": 107122688,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_16k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 321.4,
+    "peak_resident_bytes": 66363392,
+    "peak_commit_bytes": 106987520,
+    "cpu_ms": 390.625
+  },
+  {
+    "version": "buffer_32k",
+    "round": 29,
+    "returncode": 0,
+    "load_ms": 305.2568,
+    "peak_resident_bytes": 66707456,
+    "peak_commit_bytes": 107929600,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_128k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 314.0809,
+    "peak_resident_bytes": 66138112,
+    "peak_commit_bytes": 108154880,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_256k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 311.4972,
+    "peak_resident_bytes": 66035712,
+    "peak_commit_bytes": 106135552,
+    "cpu_ms": 453.125
+  },
+  {
+    "version": "standard",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 1075.5161,
+    "peak_resident_bytes": 291479552,
+    "peak_commit_bytes": 332038144,
+    "cpu_ms": 2093.75
+  },
+  {
+    "version": "memconservative",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 845.4602,
+    "peak_resident_bytes": 66011136,
+    "peak_commit_bytes": 107814912,
+    "cpu_ms": 953.125
+  },
+  {
+    "version": "buffer_4k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 326.0972,
+    "peak_resident_bytes": 67104768,
+    "peak_commit_bytes": 107810816,
+    "cpu_ms": 468.75
+  },
+  {
+    "version": "buffer_16k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 322.3928,
+    "peak_resident_bytes": 66736128,
+    "peak_commit_bytes": 107638784,
+    "cpu_ms": 281.25
+  },
+  {
+    "version": "buffer_32k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 316.2726,
+    "peak_resident_bytes": 67637248,
+    "peak_commit_bytes": 111284224,
+    "cpu_ms": 406.25
+  },
+  {
+    "version": "buffer_64k",
+    "round": 30,
+    "returncode": 0,
+    "load_ms": 305.7296,
+    "peak_resident_bytes": 66314240,
+    "peak_commit_bytes": 108044288,
+    "cpu_ms": 421.875
+  },
+  {
+    "version": "buffer_256k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 301.9193,
+    "peak_resident_bytes": 66867200,
+    "peak_commit_bytes": 107532288,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "standard",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 1035.6016,
+    "peak_resident_bytes": 282603520,
+    "peak_commit_bytes": 323166208,
+    "cpu_ms": 1453.125
+  },
+  {
+    "version": "memconservative",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 844.557,
+    "peak_resident_bytes": 66473984,
+    "peak_commit_bytes": 108027904,
+    "cpu_ms": 781.25
+  },
+  {
+    "version": "buffer_4k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 326.7011,
+    "peak_resident_bytes": 65974272,
+    "peak_commit_bytes": 107302912,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_16k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 312.887,
+    "peak_resident_bytes": 68968448,
+    "peak_commit_bytes": 111796224,
+    "cpu_ms": 437.5
+  },
+  {
+    "version": "buffer_32k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 308.5898,
+    "peak_resident_bytes": 66248704,
+    "peak_commit_bytes": 106999808,
+    "cpu_ms": 343.75
+  },
+  {
+    "version": "buffer_64k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 311.5001,
+    "peak_resident_bytes": 65961984,
+    "peak_commit_bytes": 106782720,
+    "cpu_ms": 375.0
+  },
+  {
+    "version": "buffer_128k",
+    "round": 31,
+    "returncode": 0,
+    "load_ms": 316.879,
+    "peak_resident_bytes": 66465792,
+    "peak_commit_bytes": 110014464,
+    "cpu_ms": 421.875
+  }
+]

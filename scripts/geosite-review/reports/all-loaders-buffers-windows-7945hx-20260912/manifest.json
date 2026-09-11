@@ -1,0 +1,164 @@
+{
+  "schema": 5,
+  "measurement": "buffer-size-process-resources-v2",
+  "status": "passed",
+  "memory_metric": {
+    "resident": "Windows PROCESS_MEMORY_COUNTERS.PeakWorkingSetSize (bytes)",
+    "commit": "Windows PROCESS_MEMORY_COUNTERS.PeakPagefileUsage (bytes)",
+    "collector": "GetProcessMemoryInfo/GetProcessTimes after exit, process handle retained"
+  },
+  "rounds": 32,
+  "warmups": 1,
+  "source_scope": "official baseline plus optimized decode.go only",
+  "instrumented": false,
+  "optimized_default_buffer_kib": 16,
+  "inputs": {
+    "geosite.dat": {
+      "sha256": "41168ab14df997c1f181e681c342be55470e49d4e6ff6cae6181aa1431c58ca0"
+    },
+    "geoip.dat": {
+      "sha256": "45325fee1555c8bf04115100694ce8429b88c9bb3b3548abcfd236a1c8ea146f"
+    }
+  },
+  "base": "dca26db017bcde90071f3e16f97b12fafbccfa31",
+  "optimized_ref": null,
+  "working_head": "a823e01dcdc6f90097003ecf1dbf4ef390194e81",
+  "environment": {
+    "os": {
+      "system": "Windows",
+      "release": "11",
+      "machine": "AMD64"
+    },
+    "cpu": {
+      "model": "AMD Ryzen 9 7945HX with Radeon Graphics",
+      "logical_count": 32
+    },
+    "memory": {
+      "os_total_bytes": 33476571136,
+      "modules_status": "not_exposed"
+    },
+    "storage": {
+      "filesystem": "NTFS",
+      "device_status": "not_exposed",
+      "devices": [],
+      "filesystem_capacity": {
+        "total_bytes": 1248761737216
+      }
+    },
+    "python": {
+      "version": "3.13.13"
+    },
+    "go": {
+      "sha256": "d6a71e6dc9806cb3f1fcb817d562175c5a7b1505fc3f6638299648e0b9f0f74f",
+      "runtime_probe": {
+        "gomaxprocs": 32,
+        "memory_limit_bytes": 9223372036854775807,
+        "num_cpu": 32
+      },
+      "effective_env": {
+        "GOVERSION": "go1.26.5",
+        "GOOS": "windows",
+        "GOARCH": "amd64",
+        "GOHOSTOS": "windows",
+        "GOHOSTARCH": "amd64",
+        "GOAMD64": "v1",
+        "GOARM64": "",
+        "GOEXPERIMENT": "",
+        "CGO_ENABLED": "0",
+        "GOTOOLCHAIN": "local",
+        "GOWORK": "off"
+      },
+      "custom_goflags": false
+    },
+    "environment_variables": {},
+    "custom_godebug": false,
+    "timer": {
+      "implementation": "QueryPerformanceCounter()",
+      "resolution_seconds": 1e-07,
+      "monotonic": true
+    }
+  },
+  "build_flags": [
+    "-mod=readonly",
+    "-trimpath",
+    "-buildvcs=false"
+  ],
+  "tags": "with_gvisor",
+  "buffer_sizes_kib": [
+    4,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "decoder_sha256": {
+    "baseline": "26321c46ca46724ebd64a250a154cfd7bb109bb6b28f9085202384a67b8a6ba5",
+    "buffer_4k": "46e9149fad74fff7bba623ca5ee2b4eda9d8ff134a74cc651cc509f4e1425056",
+    "buffer_16k": "abc4eb6b4ca658af728edd14d1f19e9ad6d823173d827f16534c7f05d1b8e874",
+    "buffer_32k": "632c6d2d71fa3eaffc1cc1207153efc8bc903132dfe14c5871ab2b05cc33faa6",
+    "buffer_64k": "8cfb17332490a0b2fa6c22e8d6b077432340497d9e8a36873f9ff4004976a6a2",
+    "buffer_128k": "65499502eb2705253bc20fab184373f15dad1c8510ddc52d000973b2525ac449",
+    "buffer_256k": "8dd69d7738c8d0b369f38775b8b0e89c46ea4a0c2ba38d3deb5f30747799a57a"
+  },
+  "binary_sha256": {
+    "baseline": "d968ac8235eb094972c3de33477da5d59982c23b48010fa4816d7f9ec97e9685",
+    "buffer_4k": "83d11bfa9e3e024ce2a4fbc32e64d226333d73ed5e44f4ab52bd1f5cca1b2c04",
+    "buffer_16k": "723acbbab8573bfe65fd49faaed0fabee3eeb27a9cd11cb484d64d2e9fde71ff",
+    "buffer_32k": "d1038795b4f08be72a60f60e81247db20ae549aa469959c307bcc4ac45990e5b",
+    "buffer_64k": "9f1de9b383fa0133fce73aa8c8e2555adbc1f20219ac8f77082d3a17cbe40fa1",
+    "buffer_128k": "1cf5d84793196a3cdd110b8033896715ec72e9a21ab6324c1eae38983e5fa4a2",
+    "buffer_256k": "faee2bb8f63cdc174f75e20c53f70852f3fe3ece54d15231002477e15c20c26f"
+  },
+  "variants": {
+    "standard": {
+      "loader": "standard",
+      "binary": "baseline",
+      "config_sha256": "a02992cf796e9c3919b55a78871320272d072d72a4644b43a1483495e9f0016e"
+    },
+    "memconservative": {
+      "loader": "memconservative",
+      "binary": "baseline",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_4k": {
+      "loader": "memconservative",
+      "binary": "buffer_4k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_16k": {
+      "loader": "memconservative",
+      "binary": "buffer_16k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_32k": {
+      "loader": "memconservative",
+      "binary": "buffer_32k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_64k": {
+      "loader": "memconservative",
+      "binary": "buffer_64k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_128k": {
+      "loader": "memconservative",
+      "binary": "buffer_128k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    },
+    "buffer_256k": {
+      "loader": "memconservative",
+      "binary": "buffer_256k",
+      "config_sha256": "020222f4a5309796935175bec76ec66238bb9e54e168c83100ff775bcc42222a"
+    }
+  },
+  "plot": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.3",
+    "renderer_sha256": "8d6e1cc372aaacd5934bc799925c27b19b244dcabefdb3576e56b44ef93f2135",
+    "sha256": {
+      "png": "d393435e27cd6b7e2a37ed487947b2605f323f8ea6f43eb0487b6f194028e19e",
+      "svg": "d39ce4221fe27c54f4a9e78286300499d1cc507de2b5546ca3b33ca09aea5e6c"
+    }
+  }
+}

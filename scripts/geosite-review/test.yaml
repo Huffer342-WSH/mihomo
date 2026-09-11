@@ -1,0 +1,60 @@
+# Configuration-loading fixture for mihomo -t, not a proxy subscription.
+# Repeated categories exercise reuse across DNS settings and routing rules.
+mode: rule
+log-level: info
+ipv6: false
+geodata-mode: true
+geodata-loader: memconservative
+geosite-matcher: succinct
+geo-auto-update: false
+
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+  nameserver:
+    - 223.5.5.5
+
+  # GeoSite categories used by DNS policy, including comma-separated lists.
+  nameserver-policy:
+    "geosite:cn,private,apple":
+      - 223.5.5.5
+    "geosite:geolocation-!cn":
+      - 1.1.1.1
+    "geosite:category-ads-all": rcode://success
+
+  # GeoSite categories reused by the fake-IP exclusion list.
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - "geosite:private"
+    - "geosite:cn"
+
+rules:
+  # Local services and advertisement blocking.
+  - GEOSITE,private,DIRECT
+  - GEOSITE,category-ads-all,REJECT
+
+  # Common services; no real proxy nodes are needed for loading tests.
+  - GEOSITE,apple,DIRECT
+  - GEOSITE,microsoft@cn,DIRECT
+  - GEOSITE,microsoft,DIRECT
+  - GEOSITE,google,DIRECT
+  - GEOSITE,github,DIRECT
+  - GEOSITE,youtube,DIRECT
+  - GEOSITE,netflix,DIRECT
+  - GEOSITE,telegram,DIRECT
+
+  # Large category sets, case normalization, and negated matching.
+  - GEOSITE,gfw,DIRECT
+  - GEOSITE,geolocation-!cn,DIRECT
+  - GEOSITE,CN,DIRECT
+  - GEOSITE,!cn,DIRECT
+
+  # GeoIP uses the same decoder when geodata-mode is enabled.
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,telegram,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT,no-resolve
+  - MATCH,DIRECT
